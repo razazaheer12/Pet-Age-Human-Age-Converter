@@ -2,6 +2,9 @@
 
 A delightful and interactive web application that converts your pet's age into human years! Built with modern web technologies for a smooth and engaging user experience.
 
+<img width="946" height="407" alt="image" src="https://github.com/user-attachments/assets/60acabc8-254e-45fc-bbe6-95100380d831" />
+
+
 ## 🌟 Features
 
 - **Pet Selection**: Choose between Dog 🐶 or Cat 🐱
@@ -113,6 +116,7 @@ Developed by Raza Zaheer
 **Made for pet lovers everywhere!** 🐕🐱
 
 [View on GitHub](https://github.com/razazaheer12/Pet-Age-Human-Age-Converter) | [Live Demo](https://pet-age-converter-12.netlify.app/)
+
 
 
 
