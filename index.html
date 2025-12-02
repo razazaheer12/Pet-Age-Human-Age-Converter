@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pet Age Converter</title>
+
+<!-- Google Modern Cute Rounded Font -->
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<div class="card">
+    <h2>🐾 Pet Age → Human Age</h2>
+
+    <select id="petType">
+        <option value="">Select Pet</option>
+        <option value="dog">🐶 Dog</option>
+        <option value="cat">🐱 Cat</option>
+    </select>
+
+    <input type="number" id="ageInput" placeholder="Enter pet age (years)" />
+
+    <img id="petPhoto" class="pet-img" src="">
+
+    <button class="btn-convert" onclick="convertAge()">Convert Age</button>
+    <button class="btn-reset" onclick="resetAll()">Reset</button>
+
+    <!-- Circle Gauge -->
+    <div class="circle-wrap" id="progressCircle">
+        <div class="circle">
+            <div class="mask full" id="maskFull">
+                <div class="fill" id="fillFull"></div>
+            </div>
+            <div class="mask half" id="maskHalf">
+                <div class="fill" id="fillHalf"></div>
+            </div>
+        </div>
+        <div class="inside-circle" id="circleValue">0%</div>
+    </div>
+
+    <div id="resultText" class="result-text"></div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
