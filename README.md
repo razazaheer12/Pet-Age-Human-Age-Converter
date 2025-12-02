@@ -109,11 +109,11 @@ This project is open source and available under the [MIT License](LICENSE).
 
 Developed by Raza Zaheer 
 
----
 
 **Made for pet lovers everywhere!** 🐕🐱
 
 [View on GitHub](https://github.com/razazaheer12/Pet-Age-Human-Age-Converter) | [Live Demo](https://pet-age-converter-12.netlify.app/)
+
 
 
 
